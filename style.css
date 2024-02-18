@@ -1,0 +1,56 @@
+p,
+ul,
+ol {
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+/* this centered the buttons */
+
+div {
+    justify-content: center;
+    display: flex;  
+}
+
+/* this removed underlining of links */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 20px;
+    border-style: hidden;
+    padding: 24px;
+}
+
+.one {
+    background-color: green;
+}
+
+.two {
+    background-color: white;
+}
+
+.three {
+    background-color: red;
+}
+
+/* this centered the image */
+
+img {
+    margin: auto;
+    display: block;
+}
